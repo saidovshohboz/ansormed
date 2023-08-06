@@ -15,6 +15,12 @@ body {
 }
 
 
+*:focus {
+  outline: 2px dotted #de2e54;
+  outline-offset: 2px;
+}
+
+
 /* CONTAINER */
 .container {
   width: 100%;
@@ -23,4 +29,114 @@ body {
   padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+/* SITE-HEADER */
+.site-header {
+  padding-top: 20px;
+  padding-bottom: 24px;
+}
+
+
+.site-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* SITE-LOGO */
+.site-logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #222;
+  text-decoration: none;
+}
+
+
+.site-logo:hover {
+  color: #de2E54
+}
+
+
+.site-logo:active {
+  opacity: 0.6;
+}
+
+
+.site-logo-img {
+  margin-right: 16px;
+}
+
+
+/* SITENAV-LIST */
+.sitenav {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.sitenav-list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+.sitenav-item:not(:last-child) {
+  margin-right: 32px;
+}
+
+
+.sitenav-link {
+  display: block;
+  color: #222;
+  text-decoration: none;
+}
+
+
+.sitenav-link:hover {
+  color: #de2E54;
+}
+
+
+.sitenav-link:active {
+  opacity: 0.6;
+}
+
+
+/* MAIN-LINK */
+.main-link {
+  display: inline-block;
+  padding: 10px 22px;
+  border: 2px solid #de2e54;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  background-color: #de2e54;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+
+
+.main-link:hover {
+  border-color: #de2e54;
+  background-color: #fff;
+  color: #de2e54;
+}
+
+
+.main-link:active {
+  background-color: #de2e54;
+  color: #fff;
+  opacity: 0.6;
 }
