@@ -57,6 +57,11 @@ body {
 }
 
 
+.site-logo-footer {
+  color: #fff;
+}
+
+
 .site-logo:hover {
   color: #de2E54
 }
@@ -67,8 +72,14 @@ body {
 }
 
 
+.site-logo-footer:active {
+  color: #fff;
+}
+
+
 .site-logo-img {
   margin-right: 16px;
+  border-radius: 50%;
 }
 
 
@@ -112,6 +123,22 @@ body {
 }
 
 
+.sitenav-site-footer .sitenav-link {
+  color: #fff;
+}
+
+
+.sitenav-site-footer .sitenav-link:hover {
+  color: #de2e54;
+}
+
+
+.sitenav-site-footer .sitenav-link:active {
+  color: #fff;
+}
+
+
+
 /* MAIN-LINK */
 .main-link {
   display: inline-block;
@@ -139,4 +166,20 @@ body {
   background-color: #de2e54;
   color: #fff;
   opacity: 0.6;
+}
+
+
+
+/* SITE-FOOTER */
+.site-footer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #222;
+}
+
+
+.site-footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
