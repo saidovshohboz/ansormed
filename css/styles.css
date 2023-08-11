@@ -4,6 +4,11 @@
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   padding: 0;
   margin: 0;
@@ -182,6 +187,21 @@ body {
 }
 
 
+.main-link-outline {
+  border-color: #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+
+.main-link-outline:hover {
+  border-color: transparent;
+  background-color: #de2E54;
+  color: #fff;
+}
+
+
+
 /* HERO */
 .hero {
   background-color: #0eb4c1;
@@ -296,6 +316,36 @@ body {
   margin: 0;;
 }
 
+
+/* CTA */
+.cta {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #0eb4c1;
+  color: #fff;
+}
+
+
+.cta-heading {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+
+.cta-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cta-links-item:not(:last-child) {
+  margin-right: 40px;
+}
 
 
 /* SITE-FOOTER */
