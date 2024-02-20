@@ -340,6 +340,7 @@ body {
 
 .cta-links {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -439,6 +440,16 @@ body {
   .index-service-title {
     margin-bottom: 14px;
   }
+
+  .cta {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .cta-heading {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
 }
 
 
@@ -471,5 +482,19 @@ body {
 
   .index-service-content {
     width: 100%;
+  }
+
+  .cta {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+
+  .cta-links {
+    flex-direction: column;
+  }
+
+  .cta-links-item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 24px;
   }
 }
