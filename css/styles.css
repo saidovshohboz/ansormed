@@ -296,6 +296,7 @@ body {
 
 .index-service-content {
   width: 600px;
+  flex-grow: 1;
 }
 
 
@@ -366,14 +367,27 @@ body {
 
 @media only screen and (max-width: 1000px) {
  .hero-content {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    width: 50%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 50%;
  }
 
  .hero-img {
-    width: 40%;
-    height: auto;
+  width: 40%;
+  height: auto;
+ }
+
+ .index-services {
+  padding-top: 80px;
+  padding-bottom: 80px;
+ }
+
+ .index-services-list {
+  width: 100%;
+ }
+
+ .index-service-img {
+  margin-right: 32px;
  }
 }
 
@@ -402,8 +416,60 @@ body {
 }
 
 
+@media only screen and (max-width: 700px) {
+  .index-services {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .index-services-heading {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  .index-service-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .index-service {
+    align-items: flex-start;
+  }
+
+  .index-service-title {
+    margin-bottom: 14px;
+  }
+}
+
+
 @media only screen and (max-width: 550px) {
   .hero-img {
     width: 75%;
+  }
+
+  .index-service {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .index-services-item:not(:last-child) {
+    margin-bottom: 48px;
+  }
+
+  .index-service-title {
+    text-align: center;
+  }
+
+  .index-service-description {
+    text-align: justify;
+  }
+
+  .index-service-img {
+    margin-bottom: 24px;
+    margin-right: 0;
+  }
+
+  .index-service-content {
+    width: 100%;
   }
 }
